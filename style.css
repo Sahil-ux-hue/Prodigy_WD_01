@@ -17,13 +17,14 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #525457;
     z-index: 1000;
     transition: background-color 0.3s ease;
 }
 
 .navbar ul {
     list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -53,7 +54,7 @@ section {
 }
 
 /* Style for sections */
-#home { background-color: #f1c40f; }
+#home { background-color: hsl(310, 61%, 76%); }
 #about { background-color: #e67e22; }
 #services { background-color: #16a085; }
 #contact { background-color: #2980b9; }
